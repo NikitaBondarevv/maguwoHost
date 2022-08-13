@@ -1,0 +1,2 @@
+# maguwoHost
+Landing page
