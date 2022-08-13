@@ -1,3 +1,3 @@
 # Maguwo Host lanfing page
-Open_index.html_
+Open _index.html_
 
