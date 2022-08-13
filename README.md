@@ -1,2 +1,3 @@
-# maguwoHost
-Landing page
+# Maguwo Host lanfing page
+Open_index.html_
+
