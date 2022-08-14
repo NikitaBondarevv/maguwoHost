@@ -894,8 +894,7 @@ input::-webkit-input-placeholder {
 
 
   .testimonial-block ul {
-    display: flex;
-    flex-direction: column;
+    display: block;
   }
 }
 
