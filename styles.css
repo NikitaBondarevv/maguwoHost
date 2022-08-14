@@ -543,11 +543,16 @@ input::-webkit-input-placeholder {
   justify-content: space-between;
 }
 
+#footer .nav-block {
+  padding: 42px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 #footer strong {
-  width: 100px;
   display: block;
   color: #fff;
-  margin: 42px 0 0 12px;
   font: 18px/36px Raleway-Bold, sans-serif;
 }
 
@@ -587,7 +592,6 @@ input::-webkit-input-placeholder {
   margin: 0 6px 51px 0;
   padding: 0;
   display: flex;
-  justify-content: flex-end;
   column-gap: 14px;
   list-style: none;
 }
@@ -713,6 +717,10 @@ input::-webkit-input-placeholder {
 
   #footer {
     padding: 79px 10px 52vw;
+  }
+
+  #footer .nav-block {
+    align-items: center;
   }
 
   #footer img {
