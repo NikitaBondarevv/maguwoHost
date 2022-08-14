@@ -547,14 +547,14 @@ input::-webkit-input-placeholder {
   width: 100px;
   display: block;
   color: #fff;
-  transform: translate(14px, 40px);
+  margin: 42px 0 0 12px;
   font: 18px/36px Raleway-Bold, sans-serif;
 }
 
 #footer .nav {
   list-style: none;
   padding: 0;
-  margin: 55px 0 32px 0;
+  margin: 15px 0 32px 0;
 }
 
 #footer .nav li {
@@ -584,9 +584,10 @@ input::-webkit-input-placeholder {
 }
 
 #footer .social-networks {
-  margin: 0 0 51px 18px;
+  margin: 0 6px 51px 0;
   padding: 0;
   display: flex;
+  justify-content: flex-end;
   column-gap: 14px;
   list-style: none;
 }
@@ -604,7 +605,7 @@ input::-webkit-input-placeholder {
   line-height: 36px;
   color: #fff;
   display: block;
-  margin: 0 0 0 47px;
+  text-align: end;
 }
 
 #footer .creator {
@@ -728,8 +729,8 @@ input::-webkit-input-placeholder {
   }
 
   #footer strong {
-    transform: translate(0, 40px);
     text-align: center;
+    margin: 0;
   }
 
   #footer .nav li {
@@ -743,7 +744,6 @@ input::-webkit-input-placeholder {
 
   #footer .nav-block .back-to-top {
     text-align: center;
-    margin: 0;
   }
 
   #footer .creator {
